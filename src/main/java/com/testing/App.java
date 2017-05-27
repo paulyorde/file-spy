@@ -1,17 +1,13 @@
 package com.testing;
 
-
 import org.apache.tika.Tika;
-
-import javax.activation.FileTypeMap;
 import java.nio.file.*;
-
 import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
 
 public class App
 {
-    public static final String FILE_TYPE = "text/csv";
-    public static final String DIR = "/Users/origin/tmp";
+    private static final String FILE_TYPE = "text/csv";
+    private static final String DIR = "/Users/origin/tmp";
 
     public static void main( String[] args ) throws Exception {
         Path dir = Paths.get(DIR);
