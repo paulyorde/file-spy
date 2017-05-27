@@ -4,7 +4,8 @@
 
 #### Create Folder/file
 1. create new directory in Users/your-home-/tmp
-2. create new csv file (but not in tmp folder)
+2. change Dir to your "home-name" in App
+3. create new csv file (but not in tmp folder)
 
 ##### Intellij
 1. clone or download the repo
